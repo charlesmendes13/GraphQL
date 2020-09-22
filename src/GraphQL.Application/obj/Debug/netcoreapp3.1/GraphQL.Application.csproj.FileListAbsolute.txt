@@ -1,0 +1,12 @@
+D:\Visual Studio\GraphQL\src\GraphQL.Application\bin\Debug\netcoreapp3.1\GraphQL.Application.deps.json
+D:\Visual Studio\GraphQL\src\GraphQL.Application\bin\Debug\netcoreapp3.1\GraphQL.Application.dll
+D:\Visual Studio\GraphQL\src\GraphQL.Application\bin\Debug\netcoreapp3.1\GraphQL.Application.pdb
+D:\Visual Studio\GraphQL\src\GraphQL.Application\bin\Debug\netcoreapp3.1\GraphQL.Domain.dll
+D:\Visual Studio\GraphQL\src\GraphQL.Application\bin\Debug\netcoreapp3.1\GraphQL.Domain.pdb
+D:\Visual Studio\GraphQL\src\GraphQL.Application\obj\Debug\netcoreapp3.1\GraphQL.Application.csprojAssemblyReference.cache
+D:\Visual Studio\GraphQL\src\GraphQL.Application\obj\Debug\netcoreapp3.1\GraphQL.Application.AssemblyInfoInputs.cache
+D:\Visual Studio\GraphQL\src\GraphQL.Application\obj\Debug\netcoreapp3.1\GraphQL.Application.AssemblyInfo.cs
+D:\Visual Studio\GraphQL\src\GraphQL.Application\obj\Debug\netcoreapp3.1\GraphQL.Application.csproj.CoreCompileInputs.cache
+D:\Visual Studio\GraphQL\src\GraphQL.Application\obj\Debug\netcoreapp3.1\GraphQL.Application.csproj.CopyComplete
+D:\Visual Studio\GraphQL\src\GraphQL.Application\obj\Debug\netcoreapp3.1\GraphQL.Application.dll
+D:\Visual Studio\GraphQL\src\GraphQL.Application\obj\Debug\netcoreapp3.1\GraphQL.Application.pdb

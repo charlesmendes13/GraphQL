@@ -7,13 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{41
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{1907678F-5E0D-45F6-B07E-D6712D98466F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.Infra", "src\GraphQL.Infra\GraphQL.Infra.csproj", "{7ABD5286-D141-4E80-A510-F5F5B13F0AEB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4E0FB30D-6B6F-4768-A7B4-F5B3F2A9DBCD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.Domain", "src\GraphQL.Domain\GraphQL.Domain.csproj", "{0C792F7B-7FA1-4A0E-ABEF-ED7E89C5AA8B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.API", "src\GraphQL.API\GraphQL.API.csproj", "{BBE27EE8-96F3-4CDE-88A5-8B92E88E86DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.Infra.Data", "src\GraphQL.Infra.Data\GraphQL.Infra.Data.csproj", "{CB718216-D928-4192-837C-7CBD99175288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A0D89133-EA0F-4A34-8F4B-7F56B700F880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQL.Application", "src\GraphQL.Application\GraphQL.Application.csproj", "{BE1834F4-F920-4996-8D49-7FDB959185C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7ABD5286-D141-4E80-A510-F5F5B13F0AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7ABD5286-D141-4E80-A510-F5F5B13F0AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7ABD5286-D141-4E80-A510-F5F5B13F0AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7ABD5286-D141-4E80-A510-F5F5B13F0AEB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C792F7B-7FA1-4A0E-ABEF-ED7E89C5AA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C792F7B-7FA1-4A0E-ABEF-ED7E89C5AA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C792F7B-7FA1-4A0E-ABEF-ED7E89C5AA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,14 +33,23 @@ Global
 		{BBE27EE8-96F3-4CDE-88A5-8B92E88E86DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBE27EE8-96F3-4CDE-88A5-8B92E88E86DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBE27EE8-96F3-4CDE-88A5-8B92E88E86DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB718216-D928-4192-837C-7CBD99175288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB718216-D928-4192-837C-7CBD99175288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB718216-D928-4192-837C-7CBD99175288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB718216-D928-4192-837C-7CBD99175288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1834F4-F920-4996-8D49-7FDB959185C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1834F4-F920-4996-8D49-7FDB959185C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1834F4-F920-4996-8D49-7FDB959185C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1834F4-F920-4996-8D49-7FDB959185C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7ABD5286-D141-4E80-A510-F5F5B13F0AEB} = {1907678F-5E0D-45F6-B07E-D6712D98466F}
 		{0C792F7B-7FA1-4A0E-ABEF-ED7E89C5AA8B} = {4E0FB30D-6B6F-4768-A7B4-F5B3F2A9DBCD}
 		{BBE27EE8-96F3-4CDE-88A5-8B92E88E86DD} = {41684AE5-E982-4DC1-A175-780617A85744}
+		{CB718216-D928-4192-837C-7CBD99175288} = {1907678F-5E0D-45F6-B07E-D6712D98466F}
+		{BE1834F4-F920-4996-8D49-7FDB959185C4} = {A0D89133-EA0F-4A34-8F4B-7F56B700F880}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D94BD680-62B5-481E-B420-131284C0ADD5}

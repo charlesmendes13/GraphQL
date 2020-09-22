@@ -1,0 +1,15 @@
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\bin\Debug\netcoreapp3.1\GraphQL.Infra.Data.deps.json
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\bin\Debug\netcoreapp3.1\GraphQL.Infra.Data.runtimeconfig.json
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\bin\Debug\netcoreapp3.1\GraphQL.Infra.Data.runtimeconfig.dev.json
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\bin\Debug\netcoreapp3.1\GraphQL.Infra.Data.dll
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\bin\Debug\netcoreapp3.1\GraphQL.Infra.Data.pdb
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\bin\Debug\netcoreapp3.1\GraphQL.Domain.dll
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\bin\Debug\netcoreapp3.1\GraphQL.Domain.pdb
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\obj\Debug\netcoreapp3.1\GraphQL.Infra.Data.csprojAssemblyReference.cache
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\obj\Debug\netcoreapp3.1\GraphQL.Infra.Data.AssemblyInfoInputs.cache
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\obj\Debug\netcoreapp3.1\GraphQL.Infra.Data.AssemblyInfo.cs
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\obj\Debug\netcoreapp3.1\GraphQL.Infra.Data.csproj.CoreCompileInputs.cache
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\obj\Debug\netcoreapp3.1\GraphQL.Infra.Data.csproj.CopyComplete
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\obj\Debug\netcoreapp3.1\GraphQL.Infra.Data.dll
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\obj\Debug\netcoreapp3.1\GraphQL.Infra.Data.pdb
+D:\Visual Studio\GraphQL\src\GraphQL.Infra.Data\obj\Debug\netcoreapp3.1\GraphQL.Infra.Data.genruntimeconfig.cache
