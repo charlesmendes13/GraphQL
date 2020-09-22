@@ -1,9 +1,5 @@
-﻿using GraphQL.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.EntityFrameworkCore;
+using GraphQL.Domain.Entities;
 
 namespace GraphQL.Infra.Data.Context
 {

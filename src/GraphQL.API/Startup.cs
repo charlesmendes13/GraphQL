@@ -1,25 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using GraphiQl;
-using GraphQL.API.Queries;
-using GraphQL.API.Type;
+using GraphQL.Types;
+using GraphQL.Http;
 using GraphQL.Application.Interface;
 using GraphQL.Application.Services;
-using GraphQL.Domain.Interfaces.Repository;
-using GraphQL.Http;
 using GraphQL.Infra.Data.Context;
+using GraphQL.Infra.Data.GraphQL;
+using GraphQL.Infra.Data.GraphQL.Queries;
+using GraphQL.Infra.Data.GraphQL.Type;
 using GraphQL.Infra.Data.Repository;
-using GraphQL.Types;
+using GraphQL.Domain.Interfaces.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
  
 namespace GraphQL.API
 {
@@ -34,9 +29,13 @@ namespace GraphQL.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+            // Context
+
             services.AddDbContextPool<AppDbContext>(option =>
                  option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
             );
+
+            // GraphQL
 
             services.AddScoped<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
             services.AddScoped<IDocumentExecuter, DocumentExecuter>();
@@ -46,7 +45,7 @@ namespace GraphQL.API
             services.AddScoped<AuthorQuery>();
             services.AddScoped<AuthorType>();
             services.AddScoped<BlogPostType>();
-            services.AddScoped<ISchema, GraphQLDemoSchema>();
+            services.AddScoped<ISchema, GraphQLSchema>();
 
             services.AddControllers();
         }

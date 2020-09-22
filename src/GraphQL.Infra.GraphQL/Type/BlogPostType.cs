@@ -1,11 +1,7 @@
-﻿using GraphQL.Domain.Entities;
-using GraphQL.Types;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GraphQL.Types;
+using GraphQL.Domain.Entities;
 
-namespace GraphQL.API.Type
+namespace GraphQL.Infra.Data.GraphQL.Type
 {
     public class BlogPostType : ObjectGraphType<BlogPost>
     {

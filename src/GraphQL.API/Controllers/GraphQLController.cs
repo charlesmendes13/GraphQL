@@ -1,8 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using GraphQL.API.Model;
-using GraphQL;
 using GraphQL.Types;
+using GraphQL.Application.DTO;
 
 namespace GraphQL.API.Controllers
 {

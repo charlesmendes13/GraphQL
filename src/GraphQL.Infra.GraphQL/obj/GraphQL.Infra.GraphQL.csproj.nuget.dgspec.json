@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Infra.GraphQL\\GraphQL.Infra.GraphQL.csproj": {}
+  },
+  "projects": {
+    "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Application\\GraphQL.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Application\\GraphQL.Application.csproj",
+        "projectName": "GraphQL.Application",
+        "projectPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Application\\GraphQL.Application.csproj",
+        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Domain\\GraphQL.Domain.csproj": {
+                "projectPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Domain\\GraphQL.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Domain\\GraphQL.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Domain\\GraphQL.Domain.csproj",
+        "projectName": "GraphQL.Domain",
+        "projectPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Domain\\GraphQL.Domain.csproj",
+        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Infra.GraphQL\\GraphQL.Infra.GraphQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Infra.GraphQL\\GraphQL.Infra.GraphQL.csproj",
+        "projectName": "GraphQL.Infra.GraphQL",
+        "projectPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Infra.GraphQL\\GraphQL.Infra.GraphQL.csproj",
+        "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Infra.GraphQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Application\\GraphQL.Application.csproj": {
+                "projectPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Application\\GraphQL.Application.csproj"
+              },
+              "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Domain\\GraphQL.Domain.csproj": {
+                "projectPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Domain\\GraphQL.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.0.0-preview-1175, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

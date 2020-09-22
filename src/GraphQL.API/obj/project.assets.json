@@ -3167,6 +3167,21 @@
         "runtime": {
           "bin/placeholder/GraphQL.Infra.Data.dll": {}
         }
+      },
+      "GraphQL.Infra.GraphQL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "GraphQL": "3.0.0-preview-1175",
+          "GraphQL.Application": "1.0.0",
+          "GraphQL.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GraphQL.Infra.GraphQL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GraphQL.Infra.GraphQL.dll": {}
+        }
       }
     }
   },
@@ -9579,6 +9594,11 @@
       "type": "project",
       "path": "../GraphQL.Infra.Data/GraphQL.Infra.Data.csproj",
       "msbuildProject": "../GraphQL.Infra.Data/GraphQL.Infra.Data.csproj"
+    },
+    "GraphQL.Infra.GraphQL/1.0.0": {
+      "type": "project",
+      "path": "../GraphQL.Infra.GraphQL/GraphQL.Infra.GraphQL.csproj",
+      "msbuildProject": "../GraphQL.Infra.GraphQL/GraphQL.Infra.GraphQL.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9587,6 +9607,7 @@
       "GraphQL.Application >= 1.0.0",
       "GraphQL.Domain >= 1.0.0",
       "GraphQL.Infra.Data >= 1.0.0",
+      "GraphQL.Infra.GraphQL >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.7",
@@ -9627,6 +9648,9 @@
             },
             "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Infra.Data\\GraphQL.Infra.Data.csproj": {
               "projectPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Infra.Data\\GraphQL.Infra.Data.csproj"
+            },
+            "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Infra.GraphQL\\GraphQL.Infra.GraphQL.csproj": {
+              "projectPath": "D:\\Visual Studio\\GraphQL\\src\\GraphQL.Infra.GraphQL\\GraphQL.Infra.GraphQL.csproj"
             }
           }
         }

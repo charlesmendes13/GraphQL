@@ -28,6 +28,7 @@
           "GraphQL.Application": "1.0.0",
           "GraphQL.Domain": "1.0.0",
           "GraphQL.Infra.Data": "1.0.0",
+          "GraphQL.Infra.GraphQL": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.7",
@@ -2400,6 +2401,19 @@
         },
         "compile": {
           "GraphQL.Infra.Data.dll": {}
+        }
+      },
+      "GraphQL.Infra.GraphQL/1.0.0": {
+        "dependencies": {
+          "GraphQL": "3.0.0-preview-1175",
+          "GraphQL.Application": "1.0.0",
+          "GraphQL.Domain": "1.0.0"
+        },
+        "runtime": {
+          "GraphQL.Infra.GraphQL.dll": {}
+        },
+        "compile": {
+          "GraphQL.Infra.GraphQL.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery.Reference/3.1.0.0": {
@@ -5423,6 +5437,11 @@
       "sha512": ""
     },
     "GraphQL.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphQL.Infra.GraphQL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

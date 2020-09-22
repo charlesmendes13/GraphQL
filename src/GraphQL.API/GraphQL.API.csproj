@@ -24,6 +24,7 @@
     <ProjectReference Include="..\GraphQL.Application\GraphQL.Application.csproj" />
     <ProjectReference Include="..\GraphQL.Domain\GraphQL.Domain.csproj" />
     <ProjectReference Include="..\GraphQL.Infra.Data\GraphQL.Infra.Data.csproj" />
+    <ProjectReference Include="..\GraphQL.Infra.GraphQL\GraphQL.Infra.GraphQL.csproj" />
   </ItemGroup>
 
 

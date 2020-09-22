@@ -1,12 +1,12 @@
-﻿using GraphQL.API.Type;
-using GraphQL.Application.Interface;
+﻿using GraphQL.Application.Interface;
+using GraphQL.Infra.Data.GraphQL.Type;
 using GraphQL.Types;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL.API.Queries
+namespace GraphQL.Infra.Data.GraphQL.Queries
 {
     public class AuthorQuery : ObjectGraphType
     {
@@ -22,6 +22,7 @@ namespace GraphQL.API.Queries
             Field<AuthorType>(name: "author", arguments: new QueryArguments(new QueryArgument<IntGraphType> { Name = "id" }), resolve: context =>
             {
                 id = context.GetArgument<int>("id");
+
                 return authorService.GetById(id);
             });
 

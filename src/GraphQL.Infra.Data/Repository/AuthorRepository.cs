@@ -1,10 +1,8 @@
-﻿using GraphQL.Domain.Entities;
+﻿using System.Collections.Generic;
+using System.Linq;
+using GraphQL.Domain.Entities;
 using GraphQL.Domain.Interfaces.Repository;
 using GraphQL.Infra.Data.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace GraphQL.Infra.Data.Repository
 {

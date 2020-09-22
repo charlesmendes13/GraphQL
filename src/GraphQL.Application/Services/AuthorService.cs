@@ -1,9 +1,7 @@
 ﻿using GraphQL.Application.Interface;
 using GraphQL.Domain.Entities;
 using GraphQL.Domain.Interfaces.Repository;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace GraphQL.Application.Services
 {
